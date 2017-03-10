@@ -33,6 +33,8 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../carousel.css" rel="stylesheet">
 
+    <script type="text/javascript" src="path/to/instafeed.min.js"></script>
+
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -77,7 +79,7 @@
     </div>
 
 
-  
+
 
     <!-- Marketing messaging and featurettes-->
     ================================================== -->
@@ -118,27 +120,42 @@
           <p class="lead">
 
 
-            TIPS FOR FESTIVALS
+          <ol>
 
-1.	Don’t forgot your PASSPORT!!!!!!!! You need that
-2.	Or money – how else you gonna buy fancy gifts for all your friends
-3.	Bring some form of phrasebook for the country, or learn please and thank you before you go (don’t want to ruin the politeness stereotype)
-4.	If staying in a hostel: Pillow case – don’t bother bringing a pillow just stuff your dirty clothes
-5.	Don’t wear a onsie – don’t be that guy
-6.	Bring a bag you can carry your day stuff in that isn’t your main travel bag, as you don’t want to have to carry round lots of extra stuff
-7.	Make sure to stock up and prepare for the commodity that you’re going there to enjoy, be it cheese or pumpkins, you don’t want to be the only person without a cheese to roll.
-8.	Wetwipes, always useful, always applicable. Especially if you’re taking part in the tomato festival.
-9.	Portable phone charger – just in case it runs out while you’re on the move. The city you’re visiting may even have citymapper
-10.	Bring an arm wallet – can’t trust anyone these days
+<li>Don’t forgot your PASSPORT!!!!!!!! You need that</li>
+<li>Or money – how else you gonna buy fancy gifts for all your friends</li>
+<li>Bring some form of phrasebook for the country, or learn please and thank you before you go (don’t want to ruin the politeness stereotype)</li>
+<li>If staying in a hostel: Pillow case – don’t bother bringing a pillow just stuff your dirty clothes</li>
+<li>Don’t wear a onsie – don’t be that guy</li>
+<li>Bring a bag you can carry your day stuff in that isn’t your main travel bag, as you don’t want to have to carry round lots of extra stuff</li>
+<li>Make sure to stock up and prepare for the commodity that you’re going there to enjoy, be it cheese or pumpkins, you don’t want to be the only person without a cheese to roll.</li>
+<li>Wetwipes, always useful, always applicable. Especially if you’re taking part in the tomato festival.</li>
+<li>Portable phone charger – just in case it runs out while you’re on the move. The city you’re visiting may even have citymapper</li>
+<li>Bring an arm wallet – can’t trust anyone these days</li>
+<li>Remember to book your hotel/hostel far in advance, as it will get very busy</li>
+<li>If your stuck of ideas of where to go, check out this twitter feed of people's travels --->
+  </ol>
+
+  <a class="twitter-timeline"  href="https://twitter.com/search?q=%23Weird%20%23travel" data-widget-id="840254534031163394">Tweets about #Weird #travel</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
 
 </p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="">
         </div>
       </div>
+
+      <script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'weirdfestivals',
+        clientId: 'YOUR_CLIENT_ID'
+    });
+    feed.run();
+</script>
  <!--
       <hr class="featurette-divider">
 
