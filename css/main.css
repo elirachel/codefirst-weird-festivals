@@ -4,5 +4,16 @@ font-family: 'Gloria Hallelujah', cursive;
 }
 
 body {
+  .carousel{
+   width:50%;
+   max-height: 400px;
+  }
 
-}
+
+  .left {
+      float: left;
+  }
+
+  .right {
+    float: right;
+  }
