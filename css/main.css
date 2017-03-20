@@ -1,19 +1,26 @@
 head {
 font-family: 'Gloria Hallelujah', cursive;
-color: blue;
+
 }
 
 body {
+
   .carousel{
-   width:50%;
-   max-height: 400px;
+    width:50%;
+    max-height: 400px;
   }
 
+  .column{
+    width: 800px;
+    margin:0 auto;
+  }
 
   .left {
-      float: left;
+    float: left;
+    width: 400px;
   }
 
   .right {
     float: right;
+    width: 400px;
   }
