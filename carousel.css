@@ -110,6 +110,10 @@ body {
 .center {
   positon:absolute;
 }
+
+.col-md-5 {
+  color: #FF3349;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
