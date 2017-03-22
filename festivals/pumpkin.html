@@ -5,6 +5,18 @@
     <link rel="icon" href="../images/hot air balloon.png">
       <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 
+
+      <!--Facebook like-->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+
 <!-- Bootstrap -->
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 <link href="../carousel.css" rel="stylesheet">
@@ -36,11 +48,30 @@
      width:50%;
      max-height: 400px;
     }
+
+    .column{
+      width: 800px;
+      margin:0 auto;
+    }
+
+    .left {
+      float: left;
+      width: 400px;
+    }
+
+    .right {
+      float: right;
+      width: 400px;
+    }
     </style>
+
+
   </head>
+<body>
+  <body background="../images/festival4.jpg">
+
 
 <!-- NAVBAR -->
-  <body>
     <div class="navbar-wrapper">
       <div class="container">
         <nav class="navbar navbar-inverse navbar-static-top">
@@ -134,20 +165,11 @@
 
 
 
-    <div class="container">
-      <div class="row">
-        <div class ="col-sm-4" </div>
-        </div>
-      </div>
-
-
-
 
 
 <div class="column">
       <div class="left">
-        <p>On the Left</p>
-        <h2 class="featurette-heading">Ludswigsburg Pumpkin Festival <!--<span class="text-muted">It'll blow your mind.</span>--></h2>
+      <div align="left"> <h2 class="featurette-heading">Ludswigsburg Pumpkin Festival </h2> </div>
        	<p1> Do you love pumpkins? Well Halloween has come early! Ludwigsburg in Deutschland is graciously hosting the biggest pumpkin festival (arguably the only) festival in the world. The gracious vegetable is shown to be incredibly versatile through the festival’s yearly theme. This year is Rome – get your chariots ready. Carving is not the only vocation available in Ludwigsburg Pumpkin festival, for example:
           <ol>
             <li>Pumpkin large-scale art</li>
@@ -159,7 +181,6 @@
       	</p1>
   	</div>
   	<div class="right">
-      <p>On the right</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/WcHgxzDz8cw" frameborder="0" allowfullscreen></iframe>
   	</div>
   </div>
@@ -212,11 +233,16 @@
             </div>
           </div>
 
-
+          <div class="fb-like"
+            data-href="http://www.your-domain.com/your-page.html"
+            data-layout="standard"
+            data-action="like"
+            data-show-faces="true">
+          </div>
 
   <br>
   <br>
-  <div align="right"> <a href="https://twitter.com/WeirdFestivals" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @Weirdfestivals</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <div align="right"> <div class="fb-like" data-href="https://www.facebook.com/Weird-Festivals-261684304258735/" data-width="200" data-height="30" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div> <a href="https://twitter.com/WeirdFestivals" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @Weirdfestivals</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
