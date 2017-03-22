@@ -77,7 +77,7 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
-.marketing .col-md-7 {
+.marketing .col-md-7 p {
   color: #FF3349;
 }
 
@@ -114,9 +114,6 @@ body {
   positon:absolute;
 }
 
-p .lead {
-  color: #FF3349;
-}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
