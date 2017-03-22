@@ -17,14 +17,14 @@
     <title>Weird Festivals:Tips</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+   <!--  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -57,43 +57,41 @@
   </head>
 <!-- NAVBAR
 ================================================== -->
-<body>
-  <body background="images/festival4.jpg">
-  <div class="navbar-wrapper">
-    <div class="container">
-      <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Festivals!</a>
+<body background="images/festival4.jpg">
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Festivals!</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="tips.html">Tips</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What's on?<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="festivals/tomatina.html">Tomatina</a></li>
+                    <li><a href="festivals/cornuto.html">Cornuto</a></li>
+                    <li><a href="festivals/wife-carrying-festival.html">Wife Carrying</a></li>
+                    <li><a href="festivals/pumpkin.html">Pumpkins</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+            </div>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="tips.html">Tips</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What's on?<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="festivals/tomatina.html">Tomatina</a></li>
-                  <li><a href="festivals/cornuto.html">Cornuto</a></li>
-                  <li><a href="festivals/wife-carrying-festival.html">Wife Carrying</a></li>
-                  <li><a href="festivals/pumpkin.html">Pumpkins</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
-  </div>
-
 
 
 
@@ -130,9 +128,9 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Tips for Festivals<span class="text-muted"></span></h2>
+          <h2 class="featurette-heading-tips">Tips for Festivals<span class="text-muted"></span></h2>
           <p class="lead">
-          <ol>
+          <ol class="tips-list">
 <li>Don’t forgot your PASSPORT!!!!!!!! You need that</li>
 <li>Or money – how else you gonna buy fancy gifts for all your friends</li>
 <li>Bring some form of phrasebook for the country, or learn please and thank you before you go (don’t want to ruin the politeness stereotype)</li>
@@ -187,7 +185,7 @@
       <!-- /END THE FEATURETTES -->
 
 
-    </div><!-- /.container -->
+   <!-- </div> /.container -->
 
 
     <!-- Bootstrap core JavaScript
@@ -239,14 +237,14 @@
               });
               // scroll body to 0px on click
               $('#back-to-top').click(function () {
-                  $('#back-to-top').tooltip('hide');
+                 // $('#back-to-top').tooltip('hide');
                   $('body,html').animate({
                       scrollTop: 0
                   }, 800);
                   return false;
               });
 
-              $('#back-to-top').tooltip('show');
+             // $('#back-to-top').tooltip('show');
       });
       </script>
 

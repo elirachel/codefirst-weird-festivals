@@ -92,10 +92,27 @@ body {
 
 /* Thin out the marketing headings */
 .featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette-heading-tips {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  padding-left: 32px;
+  padding-top: 120px;
+  font-size: 48px;
+}
+
+.featurette-heading-main {
   text-align: center;
   position: relative;
   top: 50%;
   left: 50%;
+  padding-top: 32px;
+  font-size: 48px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
@@ -113,6 +130,27 @@ body {
 
 .center {
   positon:absolute;
+}
+
+.tips-list {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  margin-left: 24px;
+  border-radius: 4px;
+}
+
+.background-drop {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  border-radius: 4px;
+}
+
+.background-drop-small {
+  background: rgba(0, 0, 0, 0.8);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  border-radius: 4px;
 }
 
 /* RESPONSIVE CSS
