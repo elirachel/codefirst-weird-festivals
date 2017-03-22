@@ -111,7 +111,7 @@ body {
   positon:absolute;
 }
 
-.lead {
+p .lead {
   color: #FF3349;
 }
 /* RESPONSIVE CSS
