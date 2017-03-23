@@ -35,6 +35,15 @@
     <!-- Custom styles for this template -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
+    <script>
+        $(".left").addClass('show');
+        setTimeout(function(){
+            $(".middle").addClass('show');
+        }, 500);
+        setTimeout(function(){
+            $(".right").addClass('show');
+        }, 1000)
+    </script>
 
     <script type="text/javascript" src="path/to/instafeed.min.js"></script>
     <script>window.twttr = (function(d, s, id) {
@@ -96,22 +105,17 @@
 
 
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-
-
-
       <!-- START THE FEATURETTES -->
+      <div id="arrows">
+          <div class="arrow left"></div>
+          <div class="arrow middle"></div>
+          <div class="arrow right"></div>
+      </div>
+
 
       <div class="container">
       	<div class="row">
       		<div class="col-sm-6 col-md-6 col-lg-6">
-      				<br>
-      				<br>
-      				<br>
-      				<br>
       				<ol class="tips-list"><h2 class="featurette-heading">Tips for Festivals</h2>
       					<p class="lead">
       							<ul>
