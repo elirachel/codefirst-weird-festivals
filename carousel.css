@@ -6,6 +6,7 @@ body {
   padding-bottom: 40px;
   color: #FF3399;
   font-family: 'Indie Flower', cursive;
+  font-size: 20px;
 }
 
 
@@ -35,8 +36,8 @@ body {
 }
 
 .carousel{
-  width:50%;
-  max-height: 400px;
+  width:100%;
+  max-height: 500px;
 }
 
 /*--layout*/
@@ -130,7 +131,7 @@ body {
 
 .featurette-heading-main {
   text-align: center;
-  position: relative;
+  position: left;
   top: 50%;
   left: 50%;
   padding-top: 32px;
@@ -140,23 +141,35 @@ body {
   letter-spacing: -1px;
 }
 
+.featurette-heading {
+  text-align: center;
+  position: left;
+  top: 50%;
+  left: 50%;
+  padding-top: 32px;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
 .featurette-text {
   font-size: 20px;
   text-align: center;
-  position: relative;
+  position: left;
   top: 50%;
   left: 50%;
   font-weight: 200;
   line-height: 1;
 }
 
-.center {
+. {
   positon:absolute;
 }
 
 .tips-list {
   background: rgba(0, 0, 0, 0.8);
-  padding: 40px;
+  padding: 20px;
   margin-left: 24px;
   border-radius: 4px;
 }
